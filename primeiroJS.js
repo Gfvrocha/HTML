@@ -33,7 +33,6 @@ function alunos_presentes() {
     return ['Felipe', 'Moisés', 'André', 'Cassia', 'Nilce', 'Erick']
    }
     var prof = alunos.push('Gustavo Militão');
-    
     console.log("Todos presentes hoje (Alunos e Professor)\n");
     console.log("Prof. " + prof+ "\n");
 
@@ -41,7 +40,6 @@ function alunos_presentes() {
         console.log(alunos[p] + "\n");
         
     }
-    
 
 
 
