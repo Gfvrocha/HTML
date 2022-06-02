@@ -4,7 +4,7 @@ body,html{
 }
 
 .bg{
-    background-image: url("../sccp.jpg");
+    background-image: url("../img/sccp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
