@@ -4,7 +4,7 @@ body,html{
 }
 
 .bg{
-    background-image: url("../background.jpg.jpg");
+    background-image: url("../sccp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,24 +17,24 @@ body,html{
     box-sizing: border-box;
     font-family: Helvetica;
     color: #323232;
-    border: nome;
+    border: none;
 }
 
 
 textarea:focus, input:focus {
-    outline: nome;
+    outline: none;
 }
 
-a {
+a, label {
     font-size: .8rem;
 }
 
 a:hover {
-    color: #085588;
+    color: #05121b;
 }
 
 #login-container {
-    background-color: #fff;
+    background-color: rgb(252, 251, 255);
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -42,7 +42,9 @@ a:hover {
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
+    
 }
+
 
 form {
     margin-top: 30px;
@@ -52,5 +54,62 @@ form {
 label, input {
     display: block;
     width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
     
 }
+
+input:focus{
+    border-bottom: 2px solid #085588;
+    
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color:#fff;
+    background-color: #111213;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #18223c;
+    transition: 5s;
+}
+
+#social-container, #social-container p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+}
+
+#register-container, #register-container p {
+    text-align: center;
+}
+
